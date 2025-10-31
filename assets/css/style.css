@@ -1,0 +1,185 @@
+/* Style Umum Aplikasi Bank Sampah */
+body {
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Card */
+.card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .card {
+    padding: 2rem 1.5rem;
+  }
+}
+
+/* LOGIN PAGE STYLING */
+.login-bg {
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.login-card {
+  width: 360px;
+  background: #fff;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-control {
+  padding: 10px 15px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  transition: 0.3s;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: scale(1.03);
+}
+
+/* ADMIN DASHBOARD STYLE */
+.admin-bg {
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Card Dashboard */
+.card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Button Style */
+.navbar .btn {
+  border-radius: 50px;
+}
+
+/* 🌿 Admin Page Background */
+.admin-bg {
+  background: linear-gradient(to right, #d4fc79, #96e6a1);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Table Styling */
+.table thead th {
+  background-color: #28a745 !important;
+  color: white;
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(40, 167, 69, 0.1);
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Card Hover */
+.card {
+  transition: all 0.3s ease;
+  border-radius: 1.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* 🌿 Add/Edit Form Styling */
+form .form-control {
+  padding: 10px 15px;
+}
+
+form label {
+  color: #333;
+}
+
+form input[type="file"] {
+  padding: 8px;
+  background-color: #f8f9fa;
+}
+
+form .btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+form .btn-secondary:hover {
+  background-color: #5a6268;
+}
