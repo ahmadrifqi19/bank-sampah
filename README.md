@@ -39,6 +39,7 @@ Cara Instalasi:
 | Frontend | HTML5, CSS3, Bootstrap 5 |
 | Interaktivitas | JavaScript |
 | Server Lokal | Laragon / XAMPP |
+
 ---
 
-## 🧩 **Strukt
+## 🧩 **Struktur Folder**
